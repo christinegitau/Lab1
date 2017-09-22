@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BBITGA</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_signup">Sign Up</string>
+    <string name="title_activity_home">Home</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_userName">User Name</string>
+    <string name="txt_firstName">First Name</string>
+    <string name="txt_lastName">Last Name</string>
+    <string name="Create_Account">Create Account</string>
+    <string name="Login">LOGIN</string>
+    <string name="phone_num">Phone Number</string>
+    <string name="email_char">Email</string>
+    <string name="home_txt">GOAL OF THE DAY</string>
+    <string name="new_acc">Have no account?</string>
+
+</resources>

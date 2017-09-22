@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    android:gravity="center"
+    >
+
+    <EditText
+        android:layout_width="@dimen/text_fields_width"
+        android:layout_height="@dimen/text_fields_height"
+        android:hint="@string/txt_userName"
+        android:background="@color/txt_fields"
+        />
+
+    <EditText
+        android:layout_width="@dimen/text_fields_width"
+        android:layout_height="@dimen/text_fields_height"
+        android:hint="@string/txt_password"
+        android:inputType="textPassword"
+        android:background="@color/txt_fields"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Login"
+        android:id="@+id/submit_button"
+        android:textSize="@dimen/buttons"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_acc"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Create_Account"
+        android:id="@+id/login"
+        android:textSize="@dimen/buttons"
+        />
+
+</LinearLayout>
